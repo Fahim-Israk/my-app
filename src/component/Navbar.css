@@ -1,0 +1,18 @@
+.form-check-input {
+  width: 3rem; /* make it bigger */
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.form-check-input:checked {
+  background-color: #0d6efd; /* stronger bootstrap primary blue */
+  border-color: #0d6efd;
+}
+
+.form-check-input:not(:checked) {
+  background-color: #aaa; /* darker gray when off */
+}
+
+.bg-light {
+  background-color: rgb(236 238 240) !important;
+}
